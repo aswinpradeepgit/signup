@@ -1,0 +1,142 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0; 
+  padding: 0;
+}
+
+
+.centered-heading {
+  text-align: center;
+  margin-top: 60px; 
+  font-weight: 700; 
+}
+.centered-paragraph{
+  text-align: center;
+  color: #888888;
+}
+
+.centered-subheading {
+  text-align: center;
+  margin-top: 60px; 
+  font-weight: 700; 
+}
+
+.centered-subparagraph{
+  text-align: center;
+  color: #888888;
+}
+
+
+.progress-container {
+  width: 50%; 
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+}
+
+
+.progress-bar {
+  position: absolute;
+  top: 50%; 
+  left: 0;
+  transform: translateY(-50%); 
+  width: 100%;
+  height: 8px;
+  background-color: #ddd;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+
+.progress {
+  height: 8px;
+  background-color: #4f6af0;
+  border-radius: 4px;
+  z-index: 2;
+  position: relative;
+}
+
+
+.progress-steps {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2; 
+}
+
+
+.circle {
+  width: 45px;
+  height: 45px;
+  background-color: #4060ed; 
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+  position: relative;
+}
+
+.enter-details {
+  width: 100%; 
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+.name-fields {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.first-name-div,
+.second-name-div,
+.email-div,
+.company-name-div {
+  flex: 1; 
+  
+}
+
+.centered-heading-div,
+.name-fields,
+.email-div,
+.company-name-div {
+  margin-bottom: 20px;
+}
+
+p {
+  color: #565555; 
+  margin: 0 0 5px 0; 
+}
+
+input[type="text"] {
+  width: 100%; 
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.next-button-div {
+  text-align: center; 
+}
+
+.next-button {
+  padding: 20px 85px;
+  background-color: #4060ed;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 17px
+}
+
+.next-button:hover {
+  background-color: #3d36c3;
+}
+
+
+
